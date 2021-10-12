@@ -15,9 +15,9 @@ package softing.ubah4ukdev.jee.model;
  * v1.0
  */
 public class Product {
-    int id;
-    String title;
-    double cost;
+    private int id;
+    private String title;
+    private double cost;
 
     public Product(int id, String title, double cost) {
         this.id = id;
@@ -25,27 +25,27 @@ public class Product {
         this.cost = cost;
     }
 
-    public int getId() {
+    private int getId() {
         return id;
     }
 
-    public void setId(int id) {
+    private  void setId(int id) {
         this.id = id;
     }
 
-    public String getTitle() {
+    private  String getTitle() {
         return title;
     }
 
-    public void setTitle(String title) {
+    private  void setTitle(String title) {
         this.title = title;
     }
 
-    public double getCost() {
+    private  double getCost() {
         return cost;
     }
 
-    public void setCost(double cost) {
+    private  void setCost(double cost) {
         this.cost = cost;
     }
 
