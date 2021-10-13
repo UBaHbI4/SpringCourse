@@ -25,27 +25,27 @@ public class Product {
         this.cost = cost;
     }
 
-    private int getId() {
+    public int getId() {
         return id;
     }
 
-    private  void setId(int id) {
+    public  void setId(int id) {
         this.id = id;
     }
 
-    private  String getTitle() {
+    public  String getTitle() {
         return title;
     }
 
-    private  void setTitle(String title) {
+    public  void setTitle(String title) {
         this.title = title;
     }
 
-    private  double getCost() {
+    public  double getCost() {
         return cost;
     }
 
-    private  void setCost(double cost) {
+    public  void setCost(double cost) {
         this.cost = cost;
     }
 
